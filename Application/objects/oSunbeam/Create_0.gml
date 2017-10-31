@@ -1,7 +1,7 @@
 // Settings
 attackCooldown = 0.05;
 weaponRecoil   = 3;
-spread         = 45; 
+spread         = 40; 
 minProjSpeed   = 10;
 maxProjSpeed   = 30;
 projCount      = 15;
