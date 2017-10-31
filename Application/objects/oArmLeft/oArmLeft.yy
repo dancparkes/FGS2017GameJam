@@ -2,7 +2,7 @@
     "id": "dac9f4a8-0479-4431-800d-ed85eda62bd6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oTestArmLeft",
+    "name": "oArmLeft",
     "eventList": [
         {
             "id": "6ce6eccb-db2b-4936-b08e-f411acfc0ffa",

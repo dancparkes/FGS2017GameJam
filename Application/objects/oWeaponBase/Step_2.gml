@@ -1,5 +1,5 @@
-x = oTestArmLeft.x + lengthdir_x(startPosition, oTestArmLeft.direction);
-y = oTestArmLeft.y + lengthdir_y(startPosition, oTestArmLeft.direction);
+x = arm.x + lengthdir_x(startPosition, arm.direction);
+y = arm.y + lengthdir_y(startPosition, arm.direction);
 
 shootingDirection = direction + shootingDirectionAngle;
 shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
@@ -62,5 +62,5 @@ currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
 y = y - lengthdir_y(currentRecoil, direction);
 
-direction = oTestArmLeft.direction;
+direction = arm.direction;
 image_angle = direction;
