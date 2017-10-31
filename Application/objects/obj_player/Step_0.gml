@@ -18,12 +18,38 @@ p2_down = vk_down;
 
 // Movement
 // Player 1
-if(keyboard_check(p1_right)) x = x + player_speed;
-if(keyboard_check(p1_left)) x = x - player_speed;
-if(keyboard_check(p1_up)) y = y - player_speed;
-if(keyboard_check(p1_down)) y = y + player_speed;
+if(gamepad_is_connected(0))
+{
+	var h_move = gamepad_axis_value(0, gp_axislh);
+	var v_move = gamepad_axis_value(0, gp_axislv);
+	if ((h_move != 0) || (v_move != 0))
+	{
+		x += h_move * player_speed;
+		y += v_move * player_speed;
+	}
+}
+else
+{	
+	if(keyboard_check(p1_right)) x = x + player_speed;
+	if(keyboard_check(p1_left)) x = x - player_speed;
+	if(keyboard_check(p1_up)) y = y - player_speed;
+	if(keyboard_check(p1_down)) y = y + player_speed;
+}
 // Player 2
-if(keyboard_check(p2_right)) x = x + player_speed;
-if(keyboard_check(p2_left)) x = x - player_speed;
-if(keyboard_check(p2_up)) y = y - player_speed;
-if(keyboard_check(p2_down)) y = y + player_speed;
+if(gamepad_is_connected(1))
+{
+	var h_move = gamepad_axis_value(1, gp_axislh);
+	var v_move = gamepad_axis_value(1, gp_axislv);
+	if ((h_move != 0) || (v_move != 0))
+	{
+		x += h_move * player_speed;
+		y += v_move * player_speed;
+	}
+}
+else
+{	
+	if(keyboard_check(p2_right)) x = x + player_speed;
+	if(keyboard_check(p2_left)) x = x - player_speed;
+	if(keyboard_check(p2_up)) y = y - player_speed;
+	if(keyboard_check(p2_down)) y = y + player_speed;
+}
