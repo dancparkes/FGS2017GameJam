@@ -1,4 +1,4 @@
-x = oPlayer.x + 20;
+x = oPlayer.x + 50;
 y = oPlayer.y - 10;
 
 arm_direction = 0;
@@ -18,19 +18,9 @@ else
 	arm_direction = point_direction(x,y,mouse_x,mouse_y)
 }
 
-if (arm_direction <= 90)
-{
-	image_angle = min(arm_direction,90);
-}
-else if (arm_direction >= 270)
-{
-	image_angle = max(arm_direction,270);	
-}
-else if (arm_direction < 180)
-{
-	image_angle = 90;	
-}
-else
-{
-	image_angle = 270;
-}
+if(arm_direction > 90 && arm_direction <= 180) 
+	arm_direction = 90;
+if(arm_direction > 180 && arm_direction < 270)
+	arm_direction = 270;
+direction = arm_direction;
+image_angle = arm_direction;

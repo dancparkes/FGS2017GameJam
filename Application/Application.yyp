@@ -82,7 +82,7 @@
             "Key": "13861f2d-c6f6-4e2c-8e1d-8d23d0426a8e",
             "Value": {
                 "id": "1290fad6-25d0-44bd-bb5e-f669ce8dc606",
-                "resourcePath": "objects\\oSunbeam\\oSunbeam.yy",
+                "resourcePath": "objects\\oSunbeamRight\\oSunbeamRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -90,7 +90,7 @@
             "Key": "251f178d-4bac-479b-b86c-ade697037f61",
             "Value": {
                 "id": "fa760044-f865-4205-8162-56e804963475",
-                "resourcePath": "objects\\oRazorleafMinigun\\oRazorleafMinigun.yy",
+                "resourcePath": "objects\\oRazorleafMinigunRight\\oRazorleafMinigunRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -162,7 +162,7 @@
             "Key": "5047b992-7c98-4cfa-bb1b-3ba298870bec",
             "Value": {
                 "id": "56c56cdc-6bf4-4b46-b7f9-19e51ba3f03e",
-                "resourcePath": "objects\\oWeaponBase\\oWeaponBase.yy",
+                "resourcePath": "objects\\oWeaponBaseRight\\oWeaponBaseRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "7bc70054-f9d9-42be-b3de-80e48aacacef",
+            "Value": {
+                "id": "8c766576-b85d-4638-9126-806e625c9c81",
+                "resourcePath": "objects\\oSunbeamLeft\\oSunbeamLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d5907fd-6e7d-4b74-b9cf-1a7f4229acc1",
             "Value": {
                 "id": "4e79c7b7-15f5-40de-9515-ab3dca44e45a",
@@ -244,6 +252,14 @@
                 "id": "b0237884-0a27-4915-abc0-3c599f61b5f6",
                 "resourcePath": "views\\88c00f55-5082-45a6-8b1a-a545c0056272.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9c4870b6-f8e1-42a4-8559-538a1acf8ed7",
+            "Value": {
+                "id": "0fffab32-28fc-47d2-ad6b-e65526449b0f",
+                "resourcePath": "objects\\oAcornShotgunLeft\\oAcornShotgunLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -314,7 +330,7 @@
             "Key": "b43f36e6-f3c2-4712-a4fe-6a73e3a952bb",
             "Value": {
                 "id": "fcb558da-78f0-40ef-94dc-09d6468f9540",
-                "resourcePath": "objects\\oAcornShotgun\\oAcornShotgun.yy",
+                "resourcePath": "objects\\oAcornShotgunRight\\oAcornShotgunRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -343,11 +359,27 @@
             }
         },
         {
+            "Key": "cc4db1d7-15d9-4399-be2d-502f53d74f5a",
+            "Value": {
+                "id": "59dd22a3-79f9-4ab8-b05c-b1f662beded4",
+                "resourcePath": "objects\\oWeaponBaseLeft\\oWeaponBaseLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a654c332-ea6b-43c8-9fd2-d2b8abb3ae2f",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2ce5d58-eb88-4625-8b74-d241b6afa598",
+            "Value": {
+                "id": "168afdde-b64f-40ba-b8c4-42828b2f8e12",
+                "resourcePath": "objects\\oRazorleafMinigunLeft\\oRazorleafMinigunLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -402,7 +434,7 @@
             "Key": "e3d9056d-3944-44cb-b5c3-42928632acd8",
             "Value": {
                 "id": "f71c22f8-e849-437d-8ba3-bfe5486e0015",
-                "resourcePath": "objects\\oSquirrelPistol\\oSquirrelPistol.yy",
+                "resourcePath": "objects\\oSquirrelPistolRight\\oSquirrelPistolRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -427,6 +459,14 @@
             "Value": {
                 "id": "113f7523-fc23-4b8e-93c8-58ddd9b66b98",
                 "resourcePath": "objects\\oBullet\\oBullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f891f46c-dc52-4e7a-b26c-741e7f774266",
+            "Value": {
+                "id": "37681a53-984a-426b-9687-81048f76cad7",
+                "resourcePath": "objects\\oSquirrelPistolLeft\\oSquirrelPistolLeft.yy",
                 "resourceType": "GMObject"
             }
         },

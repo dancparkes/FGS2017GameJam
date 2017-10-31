@@ -2,7 +2,7 @@
     "id": "13861f2d-c6f6-4e2c-8e1d-8d23d0426a8e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSunbeam",
+    "name": "oSunbeamRight",
     "eventList": [
         {
             "id": "5d177b16-9e98-4be7-859d-896874d4e0d5",

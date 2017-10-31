@@ -2,7 +2,7 @@
     "id": "5047b992-7c98-4cfa-bb1b-3ba298870bec",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oWeaponBase",
+    "name": "oWeaponBaseRight",
     "eventList": [
         {
             "id": "98c6b156-27a5-45c7-9e15-057665381a10",

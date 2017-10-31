@@ -1,22 +1,22 @@
 {
-    "id": "e3d9056d-3944-44cb-b5c3-42928632acd8",
+    "id": "7bc70054-f9d9-42be-b3de-80e48aacacef",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSquirrelPistol",
+    "name": "oSunbeamLeft",
     "eventList": [
         {
-            "id": "89a3343f-4a00-4e38-9225-f76bcc535279",
+            "id": "0f78ebfc-3db6-401b-86c6-a5371dc6144a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e3d9056d-3944-44cb-b5c3-42928632acd8"
+            "m_owner": "7bc70054-f9d9-42be-b3de-80e48aacacef"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "5047b992-7c98-4cfa-bb1b-3ba298870bec",
+    "parentObjectId": "cc4db1d7-15d9-4399-be2d-502f53d74f5a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "fd722dad-2567-4172-bebf-3edbc615a1cc",
+    "spriteId": "d3a5c1ca-b336-4121-a927-388b04687712",
     "visible": true
 }

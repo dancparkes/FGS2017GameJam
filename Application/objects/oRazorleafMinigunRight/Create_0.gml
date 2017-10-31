@@ -16,7 +16,7 @@ reloadTime = 1;
 
 lifetimeRelatedToSpeed  = false;
 randomAngleWithinSpread = true;
-projObj = oTestBullet;
+projObj = oBullet;
 
 startPosition = 90
 shootingDirectionAngle    = 30;

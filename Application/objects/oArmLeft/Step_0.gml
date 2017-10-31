@@ -1,4 +1,4 @@
-x = oPlayer.x - 20;
+x = oPlayer.x - 50;
 y = oPlayer.y - 10;
 min_angle = 90;
 max_angle = 270;
@@ -16,7 +16,11 @@ if(gamepad_is_connected(pad_num))
 }
 else
 {
-	arm_direction = point_direction(x,y,mouse_x,mouse_y)
+	arm_direction = point_direction(x,y,mouse_x,mouse_y) ;
 }
-
-image_angle = max(min(arm_direction,max_angle),min_angle);
+if(arm_direction > 0 && arm_direction <= 90) 
+	arm_direction = 90;
+if(arm_direction > 270 && arm_direction <= 360) 
+	arm_direction = 270;
+direction = arm_direction+ 180;
+image_angle = arm_direction+ 180;

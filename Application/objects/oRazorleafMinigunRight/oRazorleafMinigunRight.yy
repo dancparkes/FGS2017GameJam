@@ -1,32 +1,22 @@
 {
-    "id": "26346e5c-e562-4a3c-9a2f-c3bea4444b1c",
+    "id": "251f178d-4bac-479b-b86c-ade697037f61",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayer",
+    "name": "oRazorleafMinigunRight",
     "eventList": [
         {
-            "id": "6df7fd03-fec6-438a-8f02-04bab9038429",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "26346e5c-e562-4a3c-9a2f-c3bea4444b1c"
-        },
-        {
-            "id": "59f04abc-29d1-46d0-b7d4-7c5d5a36a2d7",
+            "id": "d7cb51bd-a570-4014-9d6a-fd734358de90",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "26346e5c-e562-4a3c-9a2f-c3bea4444b1c"
+            "m_owner": "251f178d-4bac-479b-b86c-ade697037f61"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "5047b992-7c98-4cfa-bb1b-3ba298870bec",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "ad96d34a-d2b9-4f26-b151-f93c6fd1e32f",
+    "spriteId": "5ff3b762-111f-45eb-a32b-80640816a57e",
     "visible": true
 }

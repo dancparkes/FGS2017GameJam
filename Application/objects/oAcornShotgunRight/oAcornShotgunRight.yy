@@ -2,7 +2,7 @@
     "id": "b43f36e6-f3c2-4712-a4fe-6a73e3a952bb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oAcornShotgun",
+    "name": "oAcornShotgunRight",
     "eventList": [
         {
             "id": "3f20a4f1-cb13-4f67-9880-dc5752aff1a6",

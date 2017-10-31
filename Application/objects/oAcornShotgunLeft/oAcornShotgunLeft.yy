@@ -1,22 +1,22 @@
 {
-    "id": "251f178d-4bac-479b-b86c-ade697037f61",
+    "id": "9c4870b6-f8e1-42a4-8559-538a1acf8ed7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oRazorleafMinigun",
+    "name": "oAcornShotgunLeft",
     "eventList": [
         {
-            "id": "d7cb51bd-a570-4014-9d6a-fd734358de90",
+            "id": "a863fea1-4e56-41ce-9ca9-03631ac73d61",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "251f178d-4bac-479b-b86c-ade697037f61"
+            "m_owner": "9c4870b6-f8e1-42a4-8559-538a1acf8ed7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "5047b992-7c98-4cfa-bb1b-3ba298870bec",
+    "parentObjectId": "cc4db1d7-15d9-4399-be2d-502f53d74f5a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "5ff3b762-111f-45eb-a32b-80640816a57e",
+    "spriteId": "2a81817d-a6c4-490a-816a-d276da1e8cc3",
     "visible": true
 }
