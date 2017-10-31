@@ -305,25 +305,6 @@
             }
         },
         {
-            "Key": "4c858ea0-36ab-49ff-a33b-73a30f596094",
-            "Value": {
-                "id": "7f723558-6db6-482b-a8d4-a2271fb03aa7",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_control\/obj_control.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "522071cb-9a7b-44fb-9d25-9f670919656f",
             "Value": {
                 "id": "a006a885-a75d-4990-bfcf-fd40c779441f",
@@ -647,6 +628,25 @@
             }
         },
         {
+            "Key": "d578b9c1-332e-45ba-829d-2f29be49f695",
+            "Value": {
+                "id": "b49abbb4-a55c-4844-9f0c-cbdba517f6a1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/til_background\/til_background.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e0eb547d-9784-4a1f-ac12-ede60ea10035",
             "Value": {
                 "id": "c6ab4c0e-e82d-47b9-98c7-2692447d6fcb",
@@ -681,6 +681,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_leg_right\/spr_leg_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0048d29-be76-4291-9a11-0b4c5b21a62f",
+            "Value": {
+                "id": "62de9094-8118-4576-9354-a64ccc6f1b38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_background\/spr_background.yy",
                 "resourceType": "GMSprite"
             }
         },
