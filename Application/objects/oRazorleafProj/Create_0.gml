@@ -1,0 +1,1 @@
+timeToFade = 0.15;
