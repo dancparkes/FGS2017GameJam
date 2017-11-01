@@ -15,6 +15,8 @@ p2_down = vk_down;
 
 var leftHMove = 0;
 var leftVMove = 0;
+var leftHsp = 0;
+var leftVsp = 0;
 // Movement
 // Player 1
 if(gamepad_is_connected(0))
@@ -30,8 +32,8 @@ if(gamepad_is_connected(0))
 		
 	if( leftHMove != 0 || leftVMove != 0)
 	{
-		x += leftHMove * player_speed;
-		y += leftVMove * player_speed;
+		leftHsp = leftHMove * player_speed;
+		leftVsp = leftVMove * player_speed;
 	}
 	
 }
@@ -39,24 +41,26 @@ else
 {	
 	if(keyboard_check(p1_right)) { 
 		leftVMove = 1;
-		x = x + player_speed;
+		leftHsp =  player_speed;
 	}
 	if(keyboard_check(p1_left)) { 
 		leftVMove = -1;
-		x = x - player_speed;
+		leftHsp = -player_speed;
 	}
 	if(keyboard_check(p1_up)) { 
 		leftHMove = 1;
-		y = y - player_speed;
+		leftHsp = -player_speed;
 	}
 	if(keyboard_check(p1_down)) { 
 		leftHMove = -1;
-		y = y + player_speed;
+		leftHsp = player_speed;
 	}
 }
 
 var rightHMove = 0;
 var rightVMove = 0;
+var rightHsp = 0;
+var rightVsp = 0;
 // Player 2
 if(gamepad_is_connected(1))
 {
@@ -70,27 +74,27 @@ if(gamepad_is_connected(1))
 		
 	if ((rightHMove != 0) || (rightVMove != 0))
 	{
-		x += rightHMove * player_speed;
-		y += rightVMove * player_speed;
+		rightHsp = rightHMove * player_speed;
+		rightVsp += rightVMove * player_speed;
 	}
 }
 else
 {	
 	if(keyboard_check(p2_right)) { 
 		rightVMove = 1;
-		x = x + player_speed;
+		rightHsp = player_speed;
 	}
 	if(keyboard_check(p2_left)) { 
 		rightVMove = -1;
-		x = x - player_speed;
+		rightHsp = -player_speed;
 	}
 	if(keyboard_check(p2_up)) { 
 		rightHMove = 1;
-		y = y - player_speed;
+		rightVsp = -player_speed;
 	}
 	if(keyboard_check(p2_down)) { 
 		rightHMove = -1;
-		y = y + player_speed;
+		rightVsp = player_speed;
 	}
 }
 
@@ -131,3 +135,28 @@ else {
 		rightMoving = false;
 	}
 }
+
+var hsp = leftHsp + rightHsp;
+// Horizontal collision
+if(place_meeting(x + hsp,y,oBuildingCol))
+{
+	while(!place_meeting(x + sign(hsp),y,oBuildingCol))
+	{
+		x = x + sign(hsp);	
+	}
+	hsp = 0;
+}
+
+var vsp = leftVsp + rightVsp;
+// Vertical collision
+if(place_meeting(x,y + vsp,oBuildingCol))
+{
+	while(!place_meeting(x,y + sign(vsp),oBuildingCol))
+	{
+		y = y + sign(vsp);	
+	}
+	vsp = 0;
+}
+
+x += hsp;
+y += vsp;
