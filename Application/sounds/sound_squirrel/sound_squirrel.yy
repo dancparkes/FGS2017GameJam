@@ -1,5 +1,5 @@
 {
-    "id": "7356dfba-f4f4-4c09-bc15-5918c877785d",
+    "id": "99f6ab0a-e272-456a-b4f3-32a6c7252c3d",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "sound_squirrel",

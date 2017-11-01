@@ -1,5 +1,5 @@
 {
-    "id": "3a831ae1-993c-4d21-bb0a-a6785323976e",
+    "id": "450952e4-ea78-4860-93eb-6c8ace3057eb",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "sound_sunbeam",
