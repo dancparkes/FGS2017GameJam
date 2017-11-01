@@ -29,3 +29,5 @@ timeTillReloadDone = 0;
 currentRecoil    = 0;
 currentPouchSize = 0;
 currentAmmo		 = 0;
+soundToPlay = sound_razorleaf;
+currentAudioPlayBuffer = 0;

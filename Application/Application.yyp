@@ -96,6 +96,25 @@
             }
         },
         {
+            "Key": "0b6d0f2e-f575-4693-90fb-c1988d4ae4b5",
+            "Value": {
+                "id": "9d927a03-e10a-4d53-94f0-df405fd4c059",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_acorn\/sound_acorn.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0e3afa32-8fc0-4f0b-a5ac-cbb3a12153f1",
             "Value": {
                 "id": "6a446d23-89a0-459e-a1c8-ec956e8cde0e",
@@ -343,6 +362,25 @@
             }
         },
         {
+            "Key": "3a831ae1-993c-4d21-bb0a-a6785323976e",
+            "Value": {
+                "id": "d71cc028-2d4b-47be-8e58-c4194e8a8e9d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_sunbeam\/sound_sunbeam.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3c17fce4-55fd-471d-a193-3926beeab572",
             "Value": {
                 "id": "c8c10af5-4eb9-4e06-a525-fb61680976d0",
@@ -514,10 +552,40 @@
             }
         },
         {
+            "Key": "7356dfba-f4f4-4c09-bc15-5918c877785d",
+            "Value": {
+                "id": "91ebd2d6-931a-455a-9ebd-422da581c3cb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_squirrel\/sound_squirrel.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "78c9e79a-b16d-4156-862c-9cb768227c33",
             "Value": {
                 "id": "b2f2420f-ba11-4bf7-950e-cdbfb4d7b3eb",
-                "resourcePath": "sprites\\sLeg\\sLeg.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sLeg\/sLeg.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -791,7 +859,18 @@
             "Key": "a7b96443-e6b5-44d6-beea-1fc060c73c53",
             "Value": {
                 "id": "74907f4a-baf4-480e-82eb-cc0bf4e31dc3",
-                "resourcePath": "objects\\oLegRight\\oLegRight.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oLegRight\/oLegRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1103,7 +1182,18 @@
             "Key": "d36f9bb7-9608-4f23-8883-10035166b468",
             "Value": {
                 "id": "3c36096f-4939-4bb1-9050-be4a07a04a2d",
-                "resourcePath": "objects\\oLegLeft\\oLegLeft.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oLegLeft\/oLegLeft.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1260,6 +1350,25 @@
             }
         },
         {
+            "Key": "e737ef50-8c92-4766-93b0-d01c5429566d",
+            "Value": {
+                "id": "25b5dee4-ae40-4450-a1c0-93ae44df7e67",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/music\/music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e89e2f49-6479-4e52-9283-3f0279ec1a6e",
             "Value": {
                 "id": "04fa79c7-5ac7-4cbd-a472-181c0c62468d",
@@ -1276,6 +1385,25 @@
                 ],
                 "resourcePath": "views\/e89e2f49-6479-4e52-9283-3f0279ec1a6e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec7f2d15-5831-498a-90fa-3642757de6c5",
+            "Value": {
+                "id": "1ad13668-6ead-47af-83ba-fada21da2586",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sound_razorleaf\/sound_razorleaf.yy",
+                "resourceType": "GMSound"
             }
         },
         {
