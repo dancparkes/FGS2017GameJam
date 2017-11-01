@@ -1,5 +1,5 @@
-x = oPlayer.x + 50;
-y = oPlayer.y - 10;
+x = oPlayer.x + 40;
+y = oPlayer.y + 13;
 
 arm_direction = 0;
 pad_num = 1;

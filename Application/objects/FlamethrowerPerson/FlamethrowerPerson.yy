@@ -1,8 +1,8 @@
 {
-    "id": "a0a63c84-fdcc-4ca9-90c4-096f5c9d182e",
+    "id": "206b6bbe-d7e2-4e36-b40d-7dbba0af8e8d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "RocketLauncherPerson",
+    "name": "FlamethrowerPerson",
     "eventList": [
         
     ],

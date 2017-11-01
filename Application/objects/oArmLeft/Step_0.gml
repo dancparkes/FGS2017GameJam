@@ -1,5 +1,5 @@
-x = oPlayer.x - 50;
-y = oPlayer.y - 10;
+x = oPlayer.x - 25;
+y = oPlayer.y + 10;
 min_angle = 90;
 max_angle = 270;
 arm_direction = 180;
@@ -22,5 +22,5 @@ if(arm_direction > 0 && arm_direction <= 90)
 	arm_direction = 90;
 if(arm_direction > 270 && arm_direction <= 360) 
 	arm_direction = 270;
-direction = arm_direction+ 180;
+direction = arm_direction;
 image_angle = arm_direction+ 180;

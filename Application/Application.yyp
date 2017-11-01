@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "078212d0-aa11-4a63-a028-6caba12a6dc4",
-            "Value": {
-                "id": "40c857af-dfe8-46c0-90de-13cbdb974127",
-                "resourcePath": "views\\078212d0-aa11-4a63-a028-6caba12a6dc4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "08d9dca8-c7a9-4e26-9a2c-4ebd2cbbe638",
             "Value": {
                 "id": "71e7b05e-0c1b-439a-8c24-ee95d3b3b244",
@@ -92,6 +84,30 @@
                 "id": "1290fad6-25d0-44bd-bb5e-f669ce8dc606",
                 "resourcePath": "objects\/oSunbeamRight\/oSunbeamRight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2048b99d-80dc-4fc7-9b6a-7efb7bd986c9",
+            "Value": {
+                "id": "b6621a02-62ad-4700-afbc-5605289d6556",
+                "resourcePath": "sprites\\sTorso\\sTorso.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "206b6bbe-d7e2-4e36-b40d-7dbba0af8e8d",
+            "Value": {
+                "id": "051fb6f7-21e0-4a6e-b601-4cac17841776",
+                "resourcePath": "objects\\FlamethrowerPerson\\FlamethrowerPerson.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2229a364-cda7-4b43-9b9c-1b3bb00b571e",
+            "Value": {
+                "id": "30ba13e4-edc9-4666-9168-950998edd5a1",
+                "resourcePath": "views\\2229a364-cda7-4b43-9b9c-1b3bb00b571e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -207,11 +223,11 @@
             }
         },
         {
-            "Key": "64154b7a-3784-498e-a5c7-4c96b8dddbfc",
+            "Key": "6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f",
             "Value": {
-                "id": "973298b5-3bea-4949-b386-db9726e8ffe2",
-                "resourcePath": "rooms\\testroom\\testroom.yy",
-                "resourceType": "GMRoom"
+                "id": "6a4ab70b-1796-4de0-924a-a322e26f4ebe",
+                "resourcePath": "views\/6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "a0a63c84-fdcc-4ca9-90c4-096f5c9d182e",
+            "Value": {
+                "id": "e77c8a2c-2bfb-44d6-87e5-170d21a2554b",
+                "resourcePath": "objects\\RocketLauncherPerson\\RocketLauncherPerson.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1b296cb-1371-4c1c-a52d-0acffc95b94f",
             "Value": {
                 "id": "a4f4753e-1ca0-4692-9957-176687dbb557",
@@ -319,14 +343,6 @@
             }
         },
         {
-            "Key": "aa78411a-3107-44b8-990f-0ad927c16e7a",
-            "Value": {
-                "id": "11d47d3e-66b8-4375-8c88-2f7ecd606d8b",
-                "resourcePath": "objects\\oFlameThrower\\oFlameThrower.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "aa79f4d6-070b-4a38-8ac3-c583b6db1cc1",
             "Value": {
                 "id": "10dc766f-69d5-4766-9a59-b461841a2374",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "ae31b41f-d181-45f3-9526-d8a948506060",
+            "Value": {
+                "id": "f18f4322-5673-40d1-915d-3242d26974e1",
+                "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b0100913-b139-46df-98a8-b39e8e9f8d9c",
             "Value": {
                 "id": "3973d2c6-ebe5-4e20-aa92-a0879429ad1d",
@@ -351,11 +375,11 @@
             }
         },
         {
-            "Key": "b244ae76-66d5-4188-ad83-caa38df32c9f",
+            "Key": "b072f53f-feb7-416d-88c0-aa9357b6e7ed",
             "Value": {
-                "id": "937f9ad1-1bbd-41f5-a04a-ccb2deecebf6",
-                "resourcePath": "views\\b244ae76-66d5-4188-ad83-caa38df32c9f.yy",
-                "resourceType": "GMFolder"
+                "id": "6c7f3dfb-1709-4595-8ef6-57eb0b861948",
+                "resourcePath": "objects\\oFlamethrower\\oFlamethrower.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,14 +399,6 @@
             }
         },
         {
-            "Key": "b9ce42df-adc8-45d8-a8e3-94efe6e45bd2",
-            "Value": {
-                "id": "7e93f27e-1c79-48a5-ae51-2489dc3ec61d",
-                "resourcePath": "objects\\FlamethrowePerson\\FlamethrowePerson.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c4849cd4-d629-49af-b1ba-a10ed873d6ad",
             "Value": {
                 "id": "9f9b1dc9-a8f4-44d6-b445-7fd35512286d",
@@ -396,6 +412,14 @@
                 "id": "043171b7-cefb-496b-aa3d-67514212c63a",
                 "resourcePath": "views\/c9211333-ce60-486e-9b37-d1e4dd72d8e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca951c5e-d95a-44ad-af92-14c4fcf46bc4",
+            "Value": {
+                "id": "a6d1e79d-dff6-4a67-a80b-99a9f4b66e13",
+                "resourcePath": "objects\\oRocketlauncher\\oRocketlauncher.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,14 +471,6 @@
             }
         },
         {
-            "Key": "d97a6c06-b9ff-4723-915d-2bdf9b014fd0",
-            "Value": {
-                "id": "46b9eb54-93ee-4ef5-bfe4-0fde401acf93",
-                "resourcePath": "objects\\RocketLauncherPerson\\RocketLauncherPerson.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "dac9f4a8-0479-4431-800d-ed85eda62bd6",
             "Value": {
                 "id": "48fb43f9-e205-4cfa-8106-8135b08732ee",
@@ -484,6 +500,14 @@
                 "id": "f71c22f8-e849-437d-8ba3-bfe5486e0015",
                 "resourcePath": "objects\/oSquirrelPistolRight\/oSquirrelPistolRight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e89e2f49-6479-4e52-9283-3f0279ec1a6e",
+            "Value": {
+                "id": "04fa79c7-5ac7-4cbd-a472-181c0c62468d",
+                "resourcePath": "views\\e89e2f49-6479-4e52-9283-3f0279ec1a6e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
