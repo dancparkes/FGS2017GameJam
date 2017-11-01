@@ -6,3 +6,6 @@
 
 leftPlayerWeapon  = oWeaponBaseLeft;
 rightPlayerWeapon = oWeaponBaseRight;
+
+currentLeftWeapon  = -1;
+currentRightWeapon = -1;

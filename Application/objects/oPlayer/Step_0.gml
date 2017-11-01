@@ -23,11 +23,19 @@ if(gamepad_is_connected(0))
 {
 	leftHMove = gamepad_axis_value(0, gp_axislh);
 	leftVMove = gamepad_axis_value(0, gp_axislv);
-	if ((leftHMove != 0) || (leftVMove != 0))
+	if(abs(leftHMove) < 0.1) 
+		leftHMove = 0;
+		
+	if(abs(leftVMove) < 0.1) 
+		leftVMove = 0;
+		
+		
+	if( leftHMove != 0 || leftVMove != 0)
 	{
 		leftHsp = leftHMove * player_speed;
 		leftVsp = leftVMove * player_speed;
 	}
+	
 }
 else
 {	
@@ -58,6 +66,12 @@ if(gamepad_is_connected(1))
 {
 	rightHMove = gamepad_axis_value(1, gp_axislh);
 	rightVMove = gamepad_axis_value(1, gp_axislv);
+	if(abs(rightHMove) < 0.1) 
+		rightHMove = 0;
+		
+	if(abs(rightVMove) < 0.1) 
+		rightVMove = 0;
+		
 	if ((rightHMove != 0) || (rightVMove != 0))
 	{
 		rightHsp = rightHMove * player_speed;
