@@ -1,8 +1,8 @@
-x = oArmLeft.x + lengthdir_x(100, oArmLeft.direction);
-y = oArmLeft.y + lengthdir_y(100, oArmLeft.direction);
+x = oArmLeft.x + lengthdir_x(70, oArmLeft.direction);
+y = oArmLeft.y + lengthdir_y(70, oArmLeft.direction);
 
 
-shootingDirection = direction + shootingDirectionAngle;
+shootingDirection = direction + shootingDirectionAngle - 45;
 shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
 shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
 
@@ -44,7 +44,7 @@ if(keyboard_check(vk_space)) and (timeTillAttack <= 0) {
 	timeTillAttack = attackCooldown;
 	currentRecoil = weaponRecoil;
 }
-if(timeTillAttack     > 0) timeTillAttack     -= delta_time/1000000;
+if(timeTillAttack     > 0) timeTillAttack -= delta_time/1000000;
 
 // Reloading
 if(timeTillReloadDone > 0)
@@ -63,5 +63,5 @@ currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
 y = y - lengthdir_y(currentRecoil, direction);
 
-direction = oArmRight.direction;
+direction = oArmLeft.direction;
 image_angle = direction;
