@@ -8,7 +8,8 @@ shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
 
 halfSpread = spread/2;
 // Shoot Projectile
-if(keyboard_check(vk_space)) and (timeTillAttack <= 0) {
+shoot = gamepad_button_check(0, gp_shoulderlb) || keyboard_check(vk_space);
+if(shoot && timeTillAttack <= 0) {
 	if(!randomAngleWithinSpread) {
 		shootingDirection = direction - halfSpread;
 	}

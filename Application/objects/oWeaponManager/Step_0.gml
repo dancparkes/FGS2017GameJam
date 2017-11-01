@@ -1,54 +1,47 @@
 if(keyboard_check_pressed(vk_f1)) {
-	with(leftPlayerWeapon) {
-		instance_destroy();
-	}
-	leftPlayerWeapon = instance_create_layer(oArmLeft.x, oArmLeft.y, "Weapon", oRazorleafMinigunLeft);
+	event_user(0);
+	currentLeftWeapon = 0;
 }
 if(keyboard_check_pressed(vk_f2)) {
-	with(leftPlayerWeapon) {
-		instance_destroy();
-	}
-	leftPlayerWeapon = instance_create_layer(oArmLeft.x, oArmLeft.y, "Weapon", oSunbeamLeft);
+	event_user(1);
+	currentLeftWeapon = 1;
 }
 if(keyboard_check_pressed(vk_f3)) {
-	with(leftPlayerWeapon) {
-		instance_destroy();
-	}
-	leftPlayerWeapon = instance_create_layer(oArmLeft.x, oArmLeft.y, "Weapon", oSquirrelPistolLeft);
+	event_user(2);
+	currentLeftWeapon = 2;
 }
 if(keyboard_check_pressed(vk_f4)) {
-	with(leftPlayerWeapon) {
-		instance_destroy();
-	}
-	leftPlayerWeapon = instance_create_layer(oArmLeft.x, oArmLeft.y, "Weapon", oAcornShotgunLeft);
+	event_user(3);
+	currentLeftWeapon = 3;
 }
+if(gamepad_is_connected(0)) {
+	if(gamepad_button_check_pressed(0, gp_shoulderrb)) {
+		currentLeftWeapon = (currentLeftWeapon + 1) % 4;
+		event_user(currentLeftWeapon);
+	}
+}
+
 
 // Right Player
 if(keyboard_check_pressed(vk_f5)) {
-	with(rightPlayerWeapon) {
-		instance_destroy();
-	}
-	rightPlayerWeapon = instance_create_layer(oArmRight.x, oArmRight.y, "Weapon", oRazorleafMinigunRight);
-
+	event_user(4);
+	currentRightWeapon = 0;
 }
 if(keyboard_check_pressed(vk_f6)) {
-	with(rightPlayerWeapon) {
-		instance_destroy();
-	}
-	rightPlayerWeapon = instance_create_layer(oArmRight.x, oArmRight.y, "Weapon", oSunbeamRight);
-
+	event_user(5);
+	currentRightWeapon = 1;
 }
 if(keyboard_check_pressed(vk_f7)) {
-	with(rightPlayerWeapon) {
-		instance_destroy();
-	}
-	rightPlayerWeapon = instance_create_layer(oArmRight.x, oArmRight.y, "Weapon", oSquirrelPistolRight);
-
+	event_user(6);
+	currentRightWeapon = 2;
 }
 if(keyboard_check_pressed(vk_f8)) {
-	with(rightPlayerWeapon) {
-		instance_destroy();
+	event_user(7);
+	currentRightWeapon = 3;
+}
+if(gamepad_is_connected(1)) {
+	if(gamepad_button_check_pressed(1, gp_shoulderrb)) {
+		currentRightWeapon = (currentRightWeapon + 1) % 4;
+		event_user(currentRightWeapon + 4);
 	}
-	rightPlayerWeapon = instance_create_layer(oArmRight.x, oArmRight.y, "Weapon", oAcornShotgunRight);
-
 }
