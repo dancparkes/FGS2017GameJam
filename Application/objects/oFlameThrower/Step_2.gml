@@ -1,4 +1,3 @@
-
 playerDirection = point_direction(self.x,self.y,oPlayer.x,oPlayer.y); 
 distanceToTarget = distance_to_object(oPlayer);
 
@@ -7,23 +6,23 @@ distanceToTarget = distance_to_object(oPlayer);
 
 
 
-if(distanceToTarget<=reach)
-{
-	spawnPointX = lengthdir_x(sprite_width, direction) + self.x;
-	spawnPointY = lengthdir_y(sprite_width,direction) + self.y;
-	flameInstance = instance_create_depth(spawnPointX,spawnPointY,2,oFlame);
-}
+//if(distanceToTarget<=reach)
+//{
+//	spawnPointX = lengthdir_x(sprite_width, direction) + self.x;
+//	spawnPointY = lengthdir_y(sprite_width,direction) + self.y;
+//	flameInstance = instance_create_depth(spawnPointX,spawnPointY,2,oFlame);
+//}
 
 
 
-//shootingDirection = direction + shootingDirectionAngle - 45;
-//shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
-//shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
+shootingDirection = direction + shootingDirectionAngle -45;
+shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
+shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
 
-/*
+
 halfSpread = spread/2;
 // Shoot Projectile
-if(keyboard_check(vk_space)) and (timeTillAttack <= 0) {
+if(distanceToTarget<=reach) and (timeTillAttack <= 0) {
 	if(!randomAngleWithinSpread) {
 		shootingDirection = direction - halfSpread;
 	}
@@ -77,7 +76,7 @@ if(keyboard_check_pressed(vk_control)) and (timeTillReloadDone <= 0) {
 currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
 y = y - lengthdir_y(currentRecoil, direction);
-*/
+
 
 direction = playerDirection;
 image_angle = direction;
