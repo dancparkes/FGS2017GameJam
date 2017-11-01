@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-life = 10;
+life = 100;
 
 Flamethrowerinstance = instance_create_layer(self.x,self.y,"Weapon",oFlamethrower);
 
