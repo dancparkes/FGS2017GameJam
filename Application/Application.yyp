@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "206b6bbe-d7e2-4e36-b40d-7dbba0af8e8d",
+            "Value": {
+                "id": "051fb6f7-21e0-4a6e-b601-4cac17841776",
+                "resourcePath": "objects\\FlamethrowerPerson\\FlamethrowerPerson.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2229a364-cda7-4b43-9b9c-1b3bb00b571e",
+            "Value": {
+                "id": "30ba13e4-edc9-4666-9168-950998edd5a1",
+                "resourcePath": "views\\2229a364-cda7-4b43-9b9c-1b3bb00b571e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "251f178d-4bac-479b-b86c-ade697037f61",
             "Value": {
                 "id": "fa760044-f865-4205-8162-56e804963475",
@@ -210,17 +226,6 @@
             "Key": "6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f",
             "Value": {
                 "id": "6a4ab70b-1796-4de0-924a-a322e26f4ebe",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f.yy",
                 "resourceType": "GMFolder"
             }
@@ -258,6 +263,14 @@
             }
         },
         {
+            "Key": "83015efb-d18d-42ec-af48-91cad8766589",
+            "Value": {
+                "id": "e28955db-317f-4fba-9465-0ad9918674ed",
+                "resourcePath": "objects\\oFlame\\oFlame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "842f1265-70b3-4f99-b51c-aa1f73b2e543",
             "Value": {
                 "id": "67e4c818-d3d8-4858-8b83-98b8ba2bb296",
@@ -286,6 +299,14 @@
             "Value": {
                 "id": "0fffab32-28fc-47d2-ad6b-e65526449b0f",
                 "resourcePath": "objects\/oAcornShotgunLeft\/oAcornShotgunLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a0a63c84-fdcc-4ca9-90c4-096f5c9d182e",
+            "Value": {
+                "id": "e77c8a2c-2bfb-44d6-87e5-170d21a2554b",
+                "resourcePath": "objects\\RocketLauncherPerson\\RocketLauncherPerson.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -349,17 +370,6 @@
             "Key": "ae31b41f-d181-45f3-9526-d8a948506060",
             "Value": {
                 "id": "f18f4322-5673-40d1-915d-3242d26974e1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
                 "resourceType": "GMSprite"
             }
@@ -370,6 +380,14 @@
                 "id": "3973d2c6-ebe5-4e20-aa92-a0879429ad1d",
                 "resourcePath": "views\/b0100913-b139-46df-98a8-b39e8e9f8d9c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b072f53f-feb7-416d-88c0-aa9357b6e7ed",
+            "Value": {
+                "id": "6c7f3dfb-1709-4595-8ef6-57eb0b861948",
+                "resourcePath": "objects\\oFlamethrower\\oFlamethrower.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -402,6 +420,14 @@
                 "id": "043171b7-cefb-496b-aa3d-67514212c63a",
                 "resourcePath": "views\/c9211333-ce60-486e-9b37-d1e4dd72d8e0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca951c5e-d95a-44ad-af92-14c4fcf46bc4",
+            "Value": {
+                "id": "a6d1e79d-dff6-4a67-a80b-99a9f4b66e13",
+                "resourcePath": "objects\\oRocketlauncher\\oRocketlauncher.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -453,6 +479,14 @@
             }
         },
         {
+            "Key": "d5d1402d-0eea-42ef-8d81-1becc8df1e32",
+            "Value": {
+                "id": "fdaa0d20-1a7f-48e6-b54b-7eec6f2b3787",
+                "resourcePath": "objects\\oRocket\\oRocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dac9f4a8-0479-4431-800d-ed85eda62bd6",
             "Value": {
                 "id": "48fb43f9-e205-4cfa-8106-8135b08732ee",
@@ -482,6 +516,14 @@
                 "id": "f71c22f8-e849-437d-8ba3-bfe5486e0015",
                 "resourcePath": "objects\/oSquirrelPistolRight\/oSquirrelPistolRight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e89e2f49-6479-4e52-9283-3f0279ec1a6e",
+            "Value": {
+                "id": "04fa79c7-5ac7-4cbd-a472-181c0c62468d",
+                "resourcePath": "views\\e89e2f49-6479-4e52-9283-3f0279ec1a6e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
