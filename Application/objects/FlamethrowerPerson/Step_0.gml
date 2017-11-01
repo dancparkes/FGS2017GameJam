@@ -1,6 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_towards_point(oPlayer.x,oPlayer.y,1);
+playerdistance = distance_to_object(oPlayer);
+
+if(playerdistance>DistanceToStop)
+{
+	move_towards_point(oPlayer.x,oPlayer.y,1);
+}
+else
+{
+	speed = 0;
+}
 
 
 if(direction > 280 )

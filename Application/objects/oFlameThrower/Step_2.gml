@@ -1,10 +1,18 @@
 
-playerDirection = point_direction(self.x,self.y,oPlayer.x,oPlayer.y);
+playerDirection = point_direction(self.x,self.y,oPlayer.x,oPlayer.y); 
+distanceToTarget = distance_to_object(oPlayer);
 
-x = FlamethrowerPerson.x + lengthdir_x(1, playerDirection);
-y = FlamethrowerPerson.y + lengthdir_y(1, playerDirection);
+//x = FlamethrowerPerson.x + lengthdir_x(1, playerDirection);
+//y = FlamethrowerPerson.y + lengthdir_y(1, playerDirection);
 
 
+
+if(distanceToTarget<=reach)
+{
+	spawnPointX = lengthdir_x(sprite_width, direction) + self.x;
+	spawnPointY = lengthdir_y(sprite_width,direction) + self.y;
+	flameInstance = instance_create_depth(spawnPointX,spawnPointY,2,oFlame);
+}
 
 
 
@@ -69,7 +77,7 @@ if(keyboard_check_pressed(vk_control)) and (timeTillReloadDone <= 0) {
 currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
 y = y - lengthdir_y(currentRecoil, direction);
-
 */
+
 direction = playerDirection;
 image_angle = direction;

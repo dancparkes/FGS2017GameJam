@@ -31,3 +31,5 @@ currentPouchSize = 0;
 currentAmmo		 = 0;
 
 image_yscale = -1;
+
+reach = 10;
