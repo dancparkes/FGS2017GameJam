@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "aa78411a-3107-44b8-990f-0ad927c16e7a",
+            "Value": {
+                "id": "11d47d3e-66b8-4375-8c88-2f7ecd606d8b",
+                "resourcePath": "objects\\oFlameThrower\\oFlameThrower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa79f4d6-070b-4a38-8ac3-c583b6db1cc1",
             "Value": {
                 "id": "10dc766f-69d5-4766-9a59-b461841a2374",
