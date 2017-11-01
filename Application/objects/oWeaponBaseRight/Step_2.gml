@@ -1,5 +1,5 @@
-x = oArmRight.x + lengthdir_x(100, oArmRight.direction);
-y = oArmRight.y + lengthdir_y(100, oArmRight.direction);
+x = oArmRight.x + lengthdir_x(70, oArmRight.direction);
+y = oArmRight.y + lengthdir_y(70, oArmRight.direction);
 
 
 shootingDirection = direction + shootingDirectionAngle;
