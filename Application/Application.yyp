@@ -210,19 +210,16 @@
             "Key": "6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f",
             "Value": {
                 "id": "6a4ab70b-1796-4de0-924a-a322e26f4ebe",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/6e07d7ed-d93f-4676-8a3d-fb40e6b7a49f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "78c9e79a-b16d-4156-862c-9cb768227c33",
+            "Value": {
+                "id": "b2f2420f-ba11-4bf7-950e-cdbfb4d7b3eb",
+                "resourcePath": "sprites\\sLeg\\sLeg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -322,6 +319,14 @@
             }
         },
         {
+            "Key": "a7b96443-e6b5-44d6-beea-1fc060c73c53",
+            "Value": {
+                "id": "74907f4a-baf4-480e-82eb-cc0bf4e31dc3",
+                "resourcePath": "objects\\oLegRight\\oLegRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "b45a13c5-9b13-47a4-b74d-46374086b850",
@@ -349,17 +354,6 @@
             "Key": "ae31b41f-d181-45f3-9526-d8a948506060",
             "Value": {
                 "id": "f18f4322-5673-40d1-915d-3242d26974e1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
                 "resourceType": "GMSprite"
             }
@@ -434,6 +428,14 @@
                 "id": "144e7177-43bb-4228-bce9-a7e318032f3e",
                 "resourcePath": "views\/d2ebd4b2-67cf-477c-90f2-6ebf41ad7759.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d36f9bb7-9608-4f23-8883-10035166b468",
+            "Value": {
+                "id": "3c36096f-4939-4bb1-9050-be4a07a04a2d",
+                "resourcePath": "objects\\oLegLeft\\oLegLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
