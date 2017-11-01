@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3a1431b0-0ba0-477d-81c5-c308c3e5702f",
+            "Value": {
+                "id": "c6603dd2-e9ac-48db-870f-e0b071f9d1e1",
+                "resourcePath": "sprites\\sCollision\\sCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c17fce4-55fd-471d-a193-3926beeab572",
             "Value": {
                 "id": "c8c10af5-4eb9-4e06-a525-fb61680976d0",
@@ -403,6 +411,14 @@
             "Value": {
                 "id": "6c7f3dfb-1709-4595-8ef6-57eb0b861948",
                 "resourcePath": "objects\/oFlamethrower\/oFlamethrower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b13eec0f-6abc-4767-a610-c34f13d01562",
+            "Value": {
+                "id": "f84ee190-eb1c-449f-9890-4c25e6b28b7f",
+                "resourcePath": "objects\\oPlayerCollision\\oPlayerCollision.yy",
                 "resourceType": "GMObject"
             }
         },
