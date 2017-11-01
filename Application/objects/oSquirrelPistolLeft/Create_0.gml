@@ -28,5 +28,7 @@ timeTillReloadDone = 0;
 currentRecoil    = 0;
 currentPouchSize = 0;
 currentAmmo		 = 0;
+soundToPlay		 = sound_squirrel;
+currentAudioPlayBuffer = 0;
 
 image_yscale = -1;

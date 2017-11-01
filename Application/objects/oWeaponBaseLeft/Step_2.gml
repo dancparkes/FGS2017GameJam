@@ -30,6 +30,11 @@ if(shoot && timeTillAttack <= 0) {
 				speed       = random_range(other.minProjSpeed, other.maxProjSpeed);
 				remainingLifetime = other.projLifeTime;
 				damage = other.projDamage;
+				if(other.currentAudioPlayBuffer <= 0)
+				{
+					audio_play_sound(other.soundToPlay,2,false);
+					other.currentAudioPlayBuffer = 0.2;
+				}
 			}
 		
 			// No random Angle
@@ -57,8 +62,10 @@ else {
 if(keyboard_check_pressed(vk_control)) and (timeTillReloadDone <= 0) {
 	timeTillReloadDone = reloadTime;
 }
-	
 
+if(currentAudioPlayBuffer > 0)
+	currentAudioPlayBuffer -= delta_time/1000000;
+	
 // Recoil
 currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
