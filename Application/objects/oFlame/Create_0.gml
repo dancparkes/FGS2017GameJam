@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-flameduration = 2;
+timeToFade = 0.15;

@@ -5,7 +5,7 @@ spread         = 45;
 minProjSpeed   = 10;
 maxProjSpeed   = 30;
 projCount      = 15;
-projLifeTime   = 0.5;
+projLifeTime   = 0.25;
 projDamage     = 1;
 
 // Ammo
@@ -16,11 +16,11 @@ reloadTime = 1;
 
 lifetimeRelatedToSpeed  = false;
 randomAngleWithinSpread = true;
-projObj = oBullet;
+projObj = oFlame;
 
 startPosition = 90
 shootingDirectionAngle    = 30;
-shootingDirectionDistance = 50;
+shootingDirectionDistance = 55;
 
 
 // Variables
@@ -32,4 +32,4 @@ currentAmmo		 = 0;
 
 image_yscale = -1;
 
-reach = 10;
+reach = 50;
