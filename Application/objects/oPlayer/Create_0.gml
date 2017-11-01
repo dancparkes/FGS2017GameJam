@@ -1,0 +1,2 @@
+leftMoving = false;
+rightMoving = false;
