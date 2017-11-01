@@ -1,11 +1,18 @@
-x = oArmLeft.x + lengthdir_x(70, oArmLeft.direction);
-y = oArmLeft.y + lengthdir_y(70, oArmLeft.direction);
+
+playerDirection = point_direction(self.x,self.y,oPlayer.x,oPlayer.y);
+
+x = FlamethrowerPerson.x + lengthdir_x(1, playerDirection);
+y = FlamethrowerPerson.y + lengthdir_y(1, playerDirection);
 
 
-shootingDirection = direction + shootingDirectionAngle - 45;
-shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
-shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
 
+
+
+//shootingDirection = direction + shootingDirectionAngle - 45;
+//shootingX = x + lengthdir_x(shootingDirectionDistance, shootingDirection);
+//shootingY = y + lengthdir_y(shootingDirectionDistance, shootingDirection);
+
+/*
 halfSpread = spread/2;
 // Shoot Projectile
 if(keyboard_check(vk_space)) and (timeTillAttack <= 0) {
@@ -63,5 +70,6 @@ currentRecoil = max(0, currentRecoil - 1);
 x = x - lengthdir_x(currentRecoil, direction);
 y = y - lengthdir_y(currentRecoil, direction);
 
-direction = oArmLeft.direction;
+*/
+direction = playerDirection;
 image_angle = direction;

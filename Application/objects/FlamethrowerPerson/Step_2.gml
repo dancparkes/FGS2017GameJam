@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.speed = 0 ;
-
+Flamethrowerinstance.x =self.x+1;
+Flamethrowerinstance.y =self.y+1;
