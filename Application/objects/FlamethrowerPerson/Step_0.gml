@@ -11,20 +11,20 @@ else
 	speed = 0;
 }
 
-
-if(direction > 280 )
+heading = "right"
+if(direction >= 280 || (direction <= 54 && direction > 0))
 {
 	heading = "right";
 }
-else if(direction > 54 && direction < 135)
+else if(direction >= 54 && direction <= 135)
 {
 	heading = "up";
 }
-else if(direction > 135 && direction < 225)
+else if(direction >= 135 && direction <= 225)
 {
 	heading = "left";
 }
-else if(direction > 225 && direction < 280)
+else if(direction >= 225 && direction <= 280)
 {
 	heading = "down";
 }
